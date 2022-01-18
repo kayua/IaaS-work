@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_auth_acess">
+
+
+    <Button
+
+        android:id="@+id/buttonAuthAccessAccount"
+        android:layout_width="242dp"
+        android:layout_height="47dp"
+        android:background="@drawable/button_shape_main_empty"
+        android:text="@string/button_next"
+        android:textColor="#777777"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834" />
+
+    <EditText
+
+        android:id="@+id/editTextAuthAccessEmail"
+        android:layout_width="220dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#717171"
+        android:ems="10"
+        android:foregroundTint="#FFFFFF"
+        android:hint="@string/hit_username"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="#636363"
+        android:textColorHighlight="#636363"
+        android:textColorHint="#888888"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_password"
+        android:textColor="#717171"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+
+        android:id="@+id/textViewAuthAccessRecovery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_recovery_password"
+        android:textColor="#706F6F"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+
+
+        android:id="@+id/imageView"
+        android:layout_width="103dp"
+        android:layout_height="1dp"
+        android:background="#706F6F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.711"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+
+        android:id="@+id/checkBoxAccessSave"
+        android:layout_width="239dp"
+        android:layout_height="27dp"
+        android:buttonTint="#B9AEF7"
+        android:checked="true"
+        android:text="@string/label_save_user_information"
+        android:textColor="#424141"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <EditText
+
+        android:id="@+id/editTextAuthAccessPassword"
+        android:layout_width="220dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#707070"
+        android:ems="10"
+        android:hint="@string/hit_password"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="#03ADD8"
+        android:textColorHighlight="#636363"
+        android:textColorHint="#888888"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_username"
+        android:textColor="#FF717171"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+
+        android:layout_width="50dp"
+        android:layout_height="1dp"
+        android:background="#595959"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.898"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_access_through"
+        android:textColor="#505050"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.903"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+
+        android:layout_width="50dp"
+        android:layout_height="1dp"
+        android:background="#595959"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.898"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+
+        android:id="@+id/buttonAuthAccessGoogle"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button_shape_round_google"
+        android:foreground="@drawable/icon_login_google"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+
+        android:id="@+id/buttonAuthAccessTwitter"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button_shape_round_twitter"
+        android:foreground="@drawable/icon_login_twitter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+
+        android:id="@+id/buttonAuthAccessFacebook"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button_shape_round_facebook"
+        android:backgroundTint="#3B5998"
+        android:foreground="@drawable/icon_login_facebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        tools:ignore="MissingConstraints" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+
+        android:id="@+id/imageViewSidebarUserIcon"
+        android:layout_width="101dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:padding="16dp"
+        android:src="@drawable/example_people"
+        app:civ_border_color="#22AABF"
+        app:civ_border_width="4dp"
+        app:civ_shadow="false"
+        app:civ_shadow_color="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_access_account"
+        android:textColor="#757575"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageViewAuthAccessIcon"
+        android:layout_width="51dp"
+        android:layout_height="43dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        app:srcCompat="@drawable/icon_add_png" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
