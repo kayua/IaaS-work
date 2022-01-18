@@ -1,3 +1,64 @@
 <resources>
-    <string name="app_name">IaaS</string>
+
+    <string name="app_name">We Meet App</string>
+    <string name="label_access_account">Acesse sua conta</string>
+    <string name="label_username">Usuário</string>
+    <string name="label_password">Senha</string>
+    <string name="label_recovery_password">Esqueceu sua senha?</string>
+    <string name="label_save_user_information">Salvar informação da conta</string>
+    <string name="label_access">Acessar</string>
+    <string name="label_access_through">Acessar com</string>
+    <string name="label_back">Voltar</string>
+    <string name="label_send_new_code">Enviar novamente código</string>
+    <string name="label_hometown">Cidade natal</string>
+    <string name="label_employment">Ocupação</string>
+    <string name="label_birth_date">Data de Nascimento</string>
+    <string name="label_gender">Genero</string>
+    <string name="label_gender_female">Feminino</string>
+    <string name="label_gender_male">Masculino</string>
+    <string name="label_gender_other">Outros</string>
+    <string name="label_register">Cadastrar-se</string>
+    <string name="label_user_email">Conta email</string>
+    <string name="label_full_username">Nome completo</string>
+    <string name="label_new_password">Nova senha</string>
+    <string name="label_use_terms">Termos de uso</string>
+    <string name="label_slogan">Compartilhe experiencias</string>
+    <string name="label_help">Ajuda</string>
+
+
+    <string name="check_keep_connected">Manter dispositivos conectados</string>
+    <string name="check_account">Confirmação de conta</string>
+
+    <string name="button_conclude">Concluir</string>
+    <string name="button_next">Próximo</string>
+    <string name="button_back">Voltar</string>
+
+
+    <string name="hit_username">Email de usuário</string>
+    <string name="hit_password">Senha de usuário</string>
+    <string name="hit_full_username">Nome do usuário</string>
+    <string name="hit_email">Ex. Usuario@email.com</string>
+    <string name="hit_hometown">Ex. São Paulo - BR</string>
+    <string name="hit_employment">Ex. Gestor, Funcionário...</string>
+    <string name="hit_birth_date">Ex. 01/01/2000.</string>
+
+
+    <string name="terms_test">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Eget nullam non nisi est sit amet. In dictum non consectetur a. Et odio pellentesque diam volutpat commodo sed egestas. Placerat orci nulla pellentesque dignissim enim sit amet venenatis urna. Ultrices tincidunt arcu non sodales neque sodales ut. Amet porttitor eget dolor morbi non arcu risus quis varius. Sed odio morbi quis commodo odio aenean. In hac habitasse platea dictumst quisque sagittis purus sit. Ullamcorper morbi tincidunt ornare massa eget. Sagittis nisl rhoncus mattis rhoncus urna. Nullam non nisi est sit amet facilisis magna.
+
+Eu feugiat pretium nibh ipsum consequat nisl. Faucibus a pellentesque sit amet porttitor eget dolor morbi. Suspendisse in est ante in nibh mauris cursus. Eros in cursus turpis massa tincidunt dui ut ornare lectus. Ut etiam sit amet nisl purus in mollis nunc sed. Nulla pellentesque dignissim enim sit amet. Justo donec enim diam vulputate ut pharetra sit amet aliquam. Nec feugiat nisl pretium fusce. Odio tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Vel elit scelerisque mauris pellentesque pulvinar pellentesque. Sed vulputate mi sit amet mauris commodo quis imperdiet. Eu sem integer vitae justo eget magna fermentum iaculis. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Nec sagittis aliquam malesuada bibendum.</string>
+
+
+    <string name="text_code">Em alguns instantes voce receberá um código de autenticação. Essa etapa é importante para garantir a segurança das suas informações
+</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
 </resources>
